@@ -1,0 +1,16 @@
+.skills {
+  height: 60%;
+  background-color: rgb(243, 243, 243);
+  position: relative;
+  z-index: 0;
+}
+
+.about__container__cards {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .skills {
+    height: 80%;
+  }
+}

@@ -1,0 +1,9 @@
+.projects {
+  height: 100%;
+}
+
+.projects__container {
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 20px;
+}

@@ -1,0 +1,36 @@
+.app {
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#app__left {
+  background-color: rgb(0, 196, 230);
+}
+
+#app__right {
+  overflow: auto;
+}
+
+#app__container {
+  height: 100%;
+}
+.isCurrent {
+  color: #e6d017 !important;
+}
+
+.h1--label {
+  font-weight: 500;
+}
+.h2--label {
+  font-weight: 400;
+  color: #998a08;
+}
+
+@media screen and (max-width: 600px) {
+  #app__right {
+    overflow: initial;
+  }
+  .app {
+    overflow: initial;
+  }
+}
