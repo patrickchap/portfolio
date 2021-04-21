@@ -41,9 +41,9 @@
   max-height: 100%;
   height: auto;
   z-index: 1;
-  -webkit-box-shadow: 2px 2px 3px 4px #ccc;
-  -moz-box-shadow: 2px 2px 3px 4px #ccc;
-  box-shadow: 2px 2px 3px 4px #ccc;
+  -webkit-box-shadow: 1px 3px 2px 1px rgb(121, 121, 121);
+  -moz-box-shadow: 1px 3px 2px 1px rgb(121, 121, 121);
+  box-shadow: 1px 3px 3px 1px rgb(121, 121, 121);
 }
 
 .btn {
