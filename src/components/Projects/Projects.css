@@ -1,9 +1,72 @@
-.projects {
-  height: 100%;
-}
-
 .projects__container {
   width: 80%;
   margin: 0px auto;
   margin-top: 20px;
+  margin-bottom: 20%;
+}
+
+.btn {
+  opacity: 0;
+}
+.img__container:hover .btn {
+  opacity: 1;
+}
+
+.img__container {
+  position: relative;
+  width: 400px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+}
+.img__container:before {
+  content: "";
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  z-index: 2;
+}
+
+.img__container img {
+  position: absolute;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  z-index: 1;
+  -webkit-box-shadow: 2px 2px 3px 4px #ccc;
+  -moz-box-shadow: 2px 2px 3px 4px #ccc;
+  box-shadow: 2px 2px 3px 4px #ccc;
+}
+
+.btn {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  position: relative;
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 3;
+  background-color: white;
+}
+
+.containers__btns {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.img__container:hover .btn {
+  opacity: 1;
+}
+
+#img__container:hover img {
+  opacity: 0.4;
 }

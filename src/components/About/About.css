@@ -1,6 +1,6 @@
 .about {
-  /* background-color: green; */
-  height: 60%;
+  height: 40%;
+  max-height: 900px;
 }
 
 .about__container {

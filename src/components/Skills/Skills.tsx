@@ -13,9 +13,7 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     media: {
       height: 0,
-      paddingTop: "90%", // 16:9
-      // padding: "0px",
-      // margin: "0px",
+      paddingTop: "90%",
     },
 
     spring: {

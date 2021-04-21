@@ -72,7 +72,7 @@ const About = () => {
                     color="primary"
                     startIcon={<OpenInNewIcon />}
                     style={{
-                      backgroundColor: "#00e695",
+                      backgroundColor: "#E6D017",
                       width: 111,
                       marginRight: 5,
                     }}
@@ -85,7 +85,7 @@ const About = () => {
                     variant="contained"
                     color="primary"
                     startIcon={<OpenInNewIcon />}
-                    style={{ backgroundColor: "#00e695", width: 111 }}
+                    style={{ backgroundColor: "#E6D017", width: 111 }}
                     href={resume}
                   >
                     Resume

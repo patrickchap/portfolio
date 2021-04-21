@@ -6,7 +6,8 @@ import profilePicture from "../../images/profilePicture.jpg";
 import "./NavBar.css";
 import MenuIcon from "@material-ui/icons/Menu";
 import Scrollspy from "react-scrollspy";
-import * as Scroll from "react-scroll";
+import { Link } from "react-scroll";
+
 import { useHistory } from "react-router-dom";
 
 interface SpyItem {
@@ -26,10 +27,12 @@ const NavBar: React.FC = () => {
 
   const isInView = (element: HTMLElement) => {
     const rect = element.getBoundingClientRect();
+    if (element.id === "About") {
+      if (rect.y > 200) return true;
+    }
     return rect.y >= 0 - 100 && rect.y <= 0 + 100;
-
-    // return rect.top >= 0 - 250 && rect.bottom <= window.innerHeight + 250;
   };
+
   const spy = () => {
     const items = ["About", "Skills", "Project", "Contact"].map((id) => {
       const element = document.getElementById(id);
@@ -40,7 +43,7 @@ const NavBar: React.FC = () => {
           id,
         } as SpyItem;
       } else {
-        return;
+        return null;
       }
     });
 
