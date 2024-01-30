@@ -1,0 +1,27 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "../styles/index.css";
+import Experience from "@components/default/Experience.astro";
+import MetaHead from "@components/general/MetaHead.astro";
+import { info } from "@data";
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <MetaHead />
+    </head>
+
+    <Layout>
+        <main>
+            <Experience
+                title={info.experiences.title}
+                experiences={info.experiences.experiences}
+            />
+            <Experience
+                title={info.education.title}
+                experiences={info.education.experiences}
+            />
+        </main>
+    </Layout>
+</html>

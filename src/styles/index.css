@@ -1,0 +1,40 @@
+@import "fonts.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+	@apply bg-light  dark:bg-gradient-to-r from-[#001f2c] from-10% via-[#00202c] via-70% to-[#00222c] to-95%;
+}
+
+body {
+	min-height: 100vh;
+}
+
+.container {
+	@apply max-w-[1112px] mx-auto px-4;
+}
+
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-quicksand font-semibold;
+  }
+  h1 {
+    @apply text-6xl sm:text-8xl;
+  }
+  h2 {
+    @apply text-xl font-semibold;
+  }
+
+  p,
+  li,
+  a {
+    @apply font-poppins;
+  }

@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "../styles/index.css";
+import MetaHead from "@components/general/MetaHead.astro";
+import Project from "@components/project/project.astro";
+import { info } from "@data";
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <MetaHead />
+    </head>
+    <Layout>
+
+        <ol class="space-y-8 text-gray-500 list-decimal list-inside dark:text-white">
+            {info.projects.map((project, index) => {
+                if(index % 2 == 0){
+                    return <li><Project project={project} isReverse={false} /></li>
+                }else{
+                    return <li><Project project={project} isReverse={true} /></li>
+                }
+
+
+            })}
+        </ol>
+        
+    </Layout>
+</html>
