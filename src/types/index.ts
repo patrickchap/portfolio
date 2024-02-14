@@ -16,6 +16,7 @@ export interface IExperience {
 export interface IProject{
     name: string;
     description: string;
+    longDescription: string[];
     skills: string[];
     thumbnail: string;
     githubUrl?: string;

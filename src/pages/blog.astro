@@ -1,0 +1,27 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import "../styles/index.css";
+import MetaHead from "@components/general/MetaHead.astro";
+const allPosts = await getCollection("blog");
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <MetaHead />
+    </head>
+    <Layout>
+        <h2 class="text-white">Blog</h2>
+        {
+            allPosts.map((post) => (
+                <div class="mt-10">
+                    <h2 class="text-white">{post.data.title}</h2>
+                    <a href={`/posts/${post.slug}`} class="text-white">
+                        Read more
+                    </a>
+                </div>
+            ))
+        }
+    </Layout>
+</html>
