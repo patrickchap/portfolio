@@ -3,8 +3,8 @@ export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
   name: "Patrick Chapple",
   jobDescription: "Software Engineer",
-  about: `I am an innovative and results-driven Software Engineer with 4+ years of experience in developing custom client solutions and transforming applications to increase efficiency. Proven expertise in React, Angular, Node.js, and C#. An exceptional track record of creating impactful projects. Dedicated to delivering high-quality, scalable solutions as a Software Engineer.
-  `,
+  about: `As a Software Engineer, I've gained over 3 years of experience in developing custom solutions and increased efficiency for
+ clients. I specialize in React, Angular, Node.js, and C# and have a proven track record of creating impactful projects. I aim to deliver high-quality, scalable solutions that can make a real difference.`,
 
   socialMedia: {
     facebook: "https://www.facebook.com/profile.php?id=100022899849583",
@@ -13,10 +13,10 @@ export const info = {
     email: "mailto:uzairahmed@74372gmail.com",
     linkedin: "https://www.linkedin.com/in/uzzii21/",
   },
-  experiences: 
-    {
-      title: "Experiences",
-      experiences:
+  experiences:
+  {
+    title: "Experiences",
+    experiences:
       [
         {
           name: "Software Engineer",
@@ -24,8 +24,8 @@ export const info = {
           startDate: "May 2021",
           endDate: "Present",
           details: [
-            "Led cross-functional collaboration with product managers, resulting in the development of custom client solutions that improved client satisfaction and retention.",
-            "Redesigned an ASP.NET Web Forms application that previously required manual updates of packages and files for each update, and transformed it into a single-page application seamlessly embedded within other applications, significantly decreasing the time and resources required for updates.",
+            "Streamlined processes and improved efficiency for clients by integrating third-party APIs, reducing the need for manual data entry.",
+            "Ensured product stability and customer satisfaction by collaborating with cross-functional teams to identify and fix critical bugs.",
           ],
           skills: [
             "Angular",
@@ -40,7 +40,7 @@ export const info = {
           startDate: "Aug 2020",
           endDate: "Dec 2020",
           details: [
-            "Developed and maintained the front-end of the application using React, Redux, and TypeScript.",
+            "Created a COVID-19 dashboard using MongoDB, Express, React, and Node, presenting trending data and customized reporting based on Oroville Hospital's Reference Lab data.",
           ],
           skills: [
             "Express",
@@ -63,71 +63,71 @@ export const info = {
           ],
         },
       ]
-    },
-  education: 
+  },
+  education:
   {
-      title: "Education",
-      experiences: [
+    title: "Education",
+    experiences: [
       {
         name: "University of Utah - School of Computing",
         startDate: "Aug 2019",
         endDate: "Dec 2020",
         description: "Masters of Software Development, 4.0 GPA",
-        details:[],
-          skills: [
-            "Java",
-            "Python",
-            "C++",
-          ],
+        details: [],
+        skills: [
+          "Java",
+          "Python",
+          "C++",
+        ],
       },
       {
         name: "University of Utah",
         startDate: "Aug 2012",
         endDate: "May 2017",
         description: "Bachelor of Science, Operations Management",
-        details:[],
+        details: [],
         skills: [],
       },
     ]
+  },
+  projects: [
+    {
+      name: "Wedding Website",
+      description: "I crafted and executed a personalized wedding website, streamlining event planning and guest management.",
+      longDescription: [
+        "This is a long description",
+        "This is a long description2",
+      ],
+      thumbnail: "/images/wedding-project.png",
+      githubUrl: "",
+      liveUrl: "https://www.patrickandchantilwedding.com/",
+      route: "/posts/wedding-project",
+      skills: [
+        "Next.js",
+        "Vercel",
+        "PlanetScale",
+        "TypeScript",
+        "TRPC",
+      ],
     },
-    projects: [
-      {
-        name: "Wedding Website",
-        description: "Wedding Website description",
-        longDescription: [
+    {
+      name: "Portfolio Website",
+      description: "Website writen using Astro to display my projects and information about me.",
+      longDescription: [
         "This is a long description",
         "This is a long description2",
       ],
-        thumbnail: "/images/wedding-project.png",
-        githubUrl: "", 
-        liveUrl: "https://www.patrickandchantilwedding.com/",
-        route: "/posts/wedding-project",
-        skills: [
-          "Next.js",
-          "Vercel",
-          "PlanetScale",
-          "TypeScript",
-          "TRPC",
-        ],
-      },
-      {
-        name: "Portfolio Website",
-        description: "Website writen using Astro to display my projects and information about me.",
-        longDescription: [
-        "This is a long description",
-        "This is a long description2",
+      thumbnail: "/images/portfolio.png",
+      githubUrl: "https://github.com/patrickchap/portfolio",
+      liveUrl: "",
+      route: "/posts/portfolio-project",
+      skills: [
+        "Astro",
+        "Vercel",
+        "TypeScript",
       ],
-        thumbnail: "/images/portfolio.png",
-        githubUrl: "https://github.com/patrickchap/portfolio",
-        liveUrl: "",
-        route: "/posts/portfolio-project",
-        skills: [
-          "Astro",
-          "Vercel",
-          "TypeScript",
-        ],
-      },
-    ],
+    },
+  ],
 };
 
 

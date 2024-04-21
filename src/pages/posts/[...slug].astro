@@ -1,21 +1,23 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import MetaHead from "@components/general/MetaHead.astro";
-import { getCollection, CollectionEntry } from 'astro:content';
+import { getCollection, CollectionEntry } from "astro:content";
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
-  const blogEntries = await getCollection('blog');
-  return blogEntries.map(entry => ({
-    params: { slug: entry.slug }, props: { entry },
-  }));
+    const blogEntries = await getCollection("blog");
+    return blogEntries.map((entry) => ({
+        params: { slug: entry.slug },
+        props: { entry },
+    }));
 }
 // 2. For your template, you can get the entry directly from the prop
 interface Props {
-  entry: CollectionEntry<'blog'>;
+    entry: CollectionEntry<"blog">;
 }
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -27,7 +29,7 @@ const { Content } = await entry.render();
             <h2
                 class="mt-16 font-extrabold text-2xl dark:text-white capitalize"
             >
-                {entry.data.title} 
+                {entry.data.title}
             </h2>
             <div class="flex items-center mt-14">
                 {
@@ -83,7 +85,9 @@ const { Content } = await entry.render();
                 }
             </div>
         </div>
-        <div class="text-gray-700 dark:text-white">
+        <div
+            class="pb-12 text-gray-700 dark:text-white prose-h1:font-bold prose-headings:mt-4 prose-h1:text-xl prose-a:text-blue-600 prose-headings:underline prose-p:mt-4"
+        >
             <Content />
         </div>
     </Layout>
