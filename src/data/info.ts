@@ -111,6 +111,21 @@ export const info = {
       ],
     },
     {
+      name: "MSD Script",
+      description: "Programming launguage and interpreter written in C++.",
+      longDescription: [
+        "",
+      ],
+      thumbnail: "/images/msd-script.png",
+      githubUrl: "",
+      liveUrl: "",
+      route: "/posts/msd-script",
+      skills: [
+        "C++",
+        "CMake",
+      ],
+    },
+    {
       name: "Portfolio Website",
       description: "Website writen using Astro to display my projects and information about me.",
       longDescription: [
