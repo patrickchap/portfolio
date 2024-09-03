@@ -99,7 +99,7 @@ export const info = {
         "This is a long description2",
       ],
       thumbnail: "/images/wedding-project.png",
-      githubUrl: "",
+      githubUrl: "https://github.com/patrickchap/wpt3",
       liveUrl: "https://www.patrickandchantilwedding.com/",
       route: "/posts/wedding-project",
       skills: [
