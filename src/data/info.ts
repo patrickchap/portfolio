@@ -92,6 +92,22 @@ export const info = {
   },
   projects: [
     {
+      name: "Remote Monitor",
+      description: "Tool to monitor services",
+      longDescription: [
+        "This is a long description",
+        "This is a long description2",
+      ],
+      thumbnail: "/images/remote_monitor.png",
+      githubUrl: "https://github.com/patrickchap/RemoteMonitor",
+      liveUrl: "",
+      route: "/posts/remote-monitor-project",
+      skills: [
+        "Go",
+        "Sqlite",
+      ],
+    },
+    {
       name: "Wedding Website",
       description: "I crafted and executed a personalized wedding website, streamlining event planning and guest management.",
       longDescription: [
@@ -117,7 +133,7 @@ export const info = {
         "",
       ],
       thumbnail: "/images/msd-script.png",
-      githubUrl: "",
+      githubUrl: "https://github.com/patrickchap/MSDScript",
       liveUrl: "",
       route: "/posts/msd-script",
       skills: [
