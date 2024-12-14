@@ -1,6 +1,7 @@
 ---
 title: "Wedding Website - Project"
 liveUrl: "https://www.patrickandchantilwedding.com/"
+githubUrl: "https://github.com/patrickchap/wpt3"
 slug: "wedding-project"
 ---
 

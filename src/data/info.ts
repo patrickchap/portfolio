@@ -24,8 +24,9 @@ export const info = {
           startDate: "May 2021",
           endDate: "Present",
           details: [
-            "Streamlined processes and improved efficiency for clients by integrating third-party APIs, reducing the need for manual data entry.",
-            "Ensured product stability and customer satisfaction by collaborating with cross-functional teams to identify and fix critical bugs.",
+            "I developed and implemented a microservice to streamline the configuration and synchronization of assets from various external asset libraries into Impartner's asset library. This new approach replaced the previous method, which required creating separate integrations for each customer and asset library, making the process much more efficient. With a configurable architecture, we could remove the need for code changes when customers wanted an update to their syncing logic. What used to be isolated and time-consuming updates for individual integrations are now centralized and standardized, leading to significant improvements in both efficiency and scalability. I utilized technologies such as C#, .NET Core, SQL, Docker, Kubernetes, and GitLab CI/CD in this project.",
+            "Collaborating with cross-functional teams, I conceptualized and developed innovative product features to enhance the user experience. This collaborative effort not only drove customer satisfaction but also ensured system reliability. I utilized C#, Angular, and TypeScript to create these features.",
+            "Created responsive, cross-browser frontends that are optimized for mobile and desktop devices. Using Angular, I was able to craft user interfaces that not only boosted engagement but also improved accessibility for a diverse range of users, ensuring a consistent user experience across different platforms.",
           ],
           skills: [
             "Angular",
@@ -40,7 +41,9 @@ export const info = {
           startDate: "Aug 2020",
           endDate: "Dec 2020",
           details: [
-            "Created a COVID-19 dashboard using MongoDB, Express, React, and Node, presenting trending data and customized reporting based on Oroville Hospital's Reference Lab data.",
+            "I developed a COVID-19 dashboard using data from Oroville Hospital's Reference Lab to provide real-time visualization of trends and facilitate the generation of custom reports. This project aimed to simplify accessing and analyzing critical health data by offering a user-friendly interface, which removed the complexities associated with direct database queries.",
+            "Users can effortlessly navigate various metrics related to COVID-19 cases, testing results, and hospital resources, allowing for informed decision-making and timely responses to the evolving situation. The dashboard's interactive features enable users to filter and customize the data views based on specific criteria, making it easier to identify patterns and track the pandemic's progression.",
+            "The technologies employed in this project included MongoDB for data storage, Express and Node.js for the server-side framework, React for building the dynamic user interface, and Chart.js for creating visually engaging data visualizations. Overall, this dashboard not only enhances data accessibility but also empowers healthcare professionals and decision-makers with the insights needed to manage public health effectively.",
           ],
           skills: [
             "Express",
@@ -54,9 +57,8 @@ export const info = {
           startDate: "Jul 2017",
           endDate: "May 2021",
           details: [
-            "Produced comprehensive financial, operational, and ad hoc reports, facilitating informed decision-making",
-            "Improved report functionality by designing, testing, and implementing queries in order to automate procedures and reporting data",
-            "Created and implemented forecasting models, utilizing current and past operational data, to help improve forecast projections.",
+            "Implemented optimized queries to enhance report functionality, reducing runtime and automating data reporting procedures. In doing this, I was able to automate various data reporting tasks, allowing for quicker and more reliable access to critical business insights. I created these reports using SQL, VBA, and Excel.",
+            "Developed forecasting models utilizing historical and real-time operational data, significantly improving forecast accuracy and supporting data-driven strategic business decision",
           ],
           skills: [
             "SQL",
